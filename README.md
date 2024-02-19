@@ -16,7 +16,12 @@ ICNet Optimization: Our methodology achieved a significant 11% reduction in mode
 BiSeNetV2 Tradeoffs: The results for BiSeNetV2 revealed an unrecoverable mIoU degradation of 67.49 (benchmark 73.4) despite minimal sparsity. However, we achieved a notable FPS of 54, highlighting the nuanced tradeoffs between model compression and performance metrics.
 
 ## Repository Structure
-
+Semantic_Segmentation_X.ipynb - Contains the implementation of structured pruning methodologies in PyTorch for ICNet and BiSeNetV2.
+/models - Explore this folder for scripts for model architecture definitions.
+/Outputs - This directory contains the outputs generated during experiments, including logs, model checkpoints, and evaluation results.
+/configs - Here, you'll find configuration files used for training and evaluating the models. Adjust these configurations to customize experiments.
+/tools -  Essential tools and scripts that support the experimentation process, including fine-tuning and evaluation.
+/utils - Utilities and helper functions that facilitate data preprocessing, visualization, and other essential tasks.
 
 ## Conclusion
 Our research represents a significant step forward in the optimization of real-time semantic segmentation models. By addressing the challenges posed by computational constraints in dynamic urban environments, we've provided valuable insights into the interplay between model compression, task adaptation, and overall performance. Moving forward, we aim to refine our approach and overcome resource limitations, unlocking new avenues for advancing the efficiency and adaptability of deep learning models in real-world applications.
