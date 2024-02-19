@@ -17,10 +17,15 @@ BiSeNetV2 Tradeoffs: The results for BiSeNetV2 revealed an unrecoverable mIoU de
 
 ## Repository Structure
 Semantic_Segmentation_X.ipynb - Contains the implementation of structured pruning methodologies in PyTorch for ICNet and BiSeNetV2.
+
 /models - Explore this folder for scripts for model architecture definitions.
+
 /Outputs - This directory contains the outputs generated during experiments, including logs, model checkpoints, and evaluation results.
+
 /configs - Here, you'll find configuration files used for training and evaluating the models. Adjust these configurations to customize experiments.
+
 /tools -  Essential tools and scripts that support the experimentation process, including fine-tuning and evaluation.
+
 /utils - Utilities and helper functions that facilitate data preprocessing, visualization, and other essential tasks.
 
 ## Conclusion
